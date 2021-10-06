@@ -1,56 +1,55 @@
 <img src="./src/renderer/assets/logo.svg" alt="" width="150" align="left"/>
 
-# Ace By DAISY App
+# Ace By DAISYアプリ
 
-Ace by DAISY App is the official graphical user interface for the EPUB accessibility checker developed by the [DAISY Consortium](http://daisy.org). The Ace App is available for the Windows, MacOS and Linux desktop operating systems.
+Ace by DAISY Appは、[DAISYコンソーシアム](http://daisy.org)が開発したEPUBアクセシビリティ・チェッカーの公式グラフィカル・ユーザー・インターフェースです。Ace Appは、Windows、MacOS、LinuxのデスクトップOSで利用できます。
 
 <br/>
 <br/>
 
-## Latest Version
+## 最新バージョン
 
-The latest version of Ace App is `v1.1.3`. Please visit the [release page](https://github.com/daisy/ace-gui/releases/tag/v1.1.3) for more information.
+Ace Appの最新バージョンは`v1.1.3`です。詳細は、[リリースページ](https://github.com/daisy/ace-gui/releases/tag/v1.1.3)をご覧ください。
 
-The Ace App currently features a software update notification system. Future versions may support a more sophisticated auto-update mechanism. Until then, users are prompted to download and install the latest release manually.
+Ace Appは現在、ソフトウェアアップデートの通知システムを備えています。将来のバージョンでは、より洗練された自動更新メカニズムをサポートするかもしれません。それまでは、最新版を手動でダウンロードしてインストールするよう促すメッセージが出ます。
 
-## Installation
+## インストール方法
 
-* **MacOS**: download the [DMG file](https://github.com/daisy/ace-gui/releases/download/v1.1.3/Ace.by.DAISY-1.1.3.dmg), open it, and drag the `Ace by DAISY.app` file into your Applications folder.
-* **Windows**: download the [NSIS installer](https://github.com/daisy/ace-gui/releases/download/v1.1.3/Ace.by.DAISY.Setup.1.1.3.exe), and follow the step-by-step instructions.
-* **Linux**: download the [AppImage file](https://github.com/daisy/ace-gui/releases/download/v1.1.3/Ace.by.DAISY-1.1.3.AppImage), and double-click the icon to immediately start using the application. Alternatively, you may download the [Debian package](https://github.com/daisy/ace-gui/releases/download/v1.1.3/ace-gui_1.1.3_amd64.deb) to install the app via your package manager (e.g. `sudo apt install ace-gui_1.1.3_amd64.deb`).
+* **MacOS**: [DMGファイル](https://github.com/daisy/ace-gui/releases/download/v1.1.3/Ace.by.DAISY-1.1.3.dmg)をダウンロードして開き、`Ace by DAISY.app`ファイルをApplicationsフォルダにドラッグします。
+* **Windows**: [NSISインストーラー](https://github.com/daisy/ace-gui/releases/download/v1.1.3/Ace.by.DAISY.Setup.1.1.3.exe)をダウンロードして、ステップバイステップの指示に従ってください。
+* **Linux**: [AppImageファイル](https://github.com/daisy/ace-gui/releases/download/v1.1.3/Ace.by.DAISY-1.1.3.AppImage)をダウンロードして、アイコンをダブルクリックすると、すぐにアプリケーションを使用できます。また、[Debianパッケージ](https://github.com/daisy/ace-gui/releases/download/v1.1.3/ace-gui_1.1.3_amd64.deb)をダウンロードして、パッケージマネージャーを使ってアプリケーションをインストールすることもできます（例：`sudo apt install ace-gui_1.1.3_amd64.deb`）
 
-## Documentation
+## 文書化
 
-A quick-start guide with step-by-step instructions is available in [this wiki page](https://github.com/daisy/ace-gui/wiki/Quick-Start). More in-depth tutorials will be added at a future stage.
+ステップバイステップで説明したクイックスタートガイドが[このWikiページ](https://github.com/daisy/ace-gui/wiki/Quick-Start)にあります。将来的には、より詳細なチュートリアルが追加される予定です。
 
-Documentation about the core projects (command line, HTTP interface, etc.) is available at the [Ace support website](https://daisy.github.io/ace). The [Inclusive Publishing](https://inclusivepublishing.org/toolbox/accessibility-checker/) hub also provides useful guidance.
+コアプロジェクトに関するドキュメント（コマンドライン、HTTPインターフェースなど）は[Aceのサポートサイト](https://daisy.github.io/ace)にあります。また、[Inclusive Publishing](https://inclusivepublishing.org/toolbox/accessibility-checker/)も有用なガイダンスをまとめてあります。
 
-## Development Plan
+## 開発計画
 
-The Ace App is under active development. The short-term plan is to iron-out bugs, improve the responsiveness and accessibility of the user interface, write documentation and tutorials, and provide additional language packs.
+Aceアプリは現在、積極的に開発中です。短期的な計画としては、バグの解消、ユーザーインターフェースの応答性とアクセシビリティの向上、ドキュメントとチュートリアルの作成、追加の言語パックの提供などです。
 
-## Language localizations
+## 言語のノーカライゼーション
 
-Please visit [this wiki page](https://github.com/daisy/ace-gui/wiki/Localization) to learn about user interface translations.
+ユーザーインターフェースの翻訳については、[このWikiページ](https://github.com/daisy/ace-gui/wiki/Localization)をご覧ください。
 
-## Target Audience, Design Goals
+## 対象者、デザイン目標
 
-The "Ace by DAISY" [command line tool](https://daisy.github.io/ace) is designed for technical users, who are comfortable dealing with shell commands and low-level filesystem access. On the other hand, the Ace App aims to simplify usage of the accessibility evaluator by providing a familiar graphical user interface. This includes: file drag and drop, structured menus, user preferences, interactive display of the evaluation results (search, filter, sort), integration with the [DAISY Knowledge Base](http://kb.daisy.org/publishing/docs/), language localizations, etc.
+Ace by DAISYの[コマンドラインツール](https://daisy.github.io/ace)は、シェルコマンドや低レベルのファイルシステムアクセスを扱うことに慣れている技術的なユーザー向けに設計されています。一方、Aceアプリは、使い慣れたグラフィカル・ユーザー・インターフェースを提供することで、アクセシビリティ評価ツールが簡単に使えるようになることを目的としています。これには、ファイルのドラッグ＆ドロップ、構造化されたメニュー、ユーザー設定、評価結果のインタラクティブな表示（検索、フィルタ、ソート）、[DAISY Knowledge Base](http://kb.daisy.org/publishing/docs/)との統合、言語のローカライズなどが含まれます。
 
-Under the hood, the Ace App is powered by the same core components used by the command line tool. Although the desktop app displays the results of the accessibility evaluation in a rich, interactive user interface control (tabulated view), advanced users can export reports in the same format as those generated by the command line tool (i.e. HTML and JSON files).
+内部では、Aceアプリは、コマンドラインツールで使用されているのと同じコアコンポーネントを使用しています。デスクトップアプリケーションは、アクセシビリティ評価の結果をリッチでインタラクティブなユーザーインターフェースコントロール（表形式）で表示しますが、上級ユーザーは、コマンドラインツールで生成されたものと同じ形式（HTMLファイルやJSONファイル）でレポートをエクスポートすることができます。
 
-The Ace App is suitable for novice users who wish to discover the functionality of the accessibility evaluator, before transitioning to more advanced command line usage (for example, in order to implement automated processing, using shell scripts).
+Ace Appは、アクセシビリティ評価ツールの機能を確認したい初心者ユーザーに適しています。それに慣れたら、より高度なコマンドライン使用法（シェルスクリプトを使用した自動処理の実装など）に移行のもよいでしょう。
 
-The Ace App is not aimed at users who wish to check the accessibility of many publications in a row. This use-case is better served by the command line tool, which can be invoked multiple times in an automated manner (i.e. with minimal user interaction).
+Ace Appは、連続して多数の出版物のアクセシビリティをチェックしたいユーザーを対象としていません。このようなケースでは、自動化された方法で（つまり、ユーザーの操作を最小限に抑えて）複数回起動できるコマンドラインツールの方が適しています。
 
-## Developer Workflow
+## 開発者向けワークフロー
 
-Please visit [this wiki page](https://github.com/daisy/ace-gui/wiki/Developer-Workflow) for detailed developer-oriented information.
+開発者向けの詳細な情報については、[このWikiページ](https://github.com/daisy/ace-gui/wiki/Developer-Workflow)をご覧ください。
 
-## Contributing
+## 貢献
+このプロジェクトに貢献する方法や、課題やプルリクエストを提出するプロセスの詳細については、 [行動規範](CODE_OF_CONDUCT.md)と[貢献についてのガイドライン](CONTRIBUTING.md)をお読みください。どんな貢献でも歓迎します😊お気軽にご連絡ください。
 
-Please read our [code of conduct](CODE_OF_CONDUCT.md) and [contributing guidelines](CONTRIBUTING.md) for details on how to contribute to this project, and the process for submitting issues or pull requests. We’re welcoming any kind of contributions 😊, feel free to get in touch with us!
+## ライセンス
 
-## License
-
-This project is licensed under the MIT License - see the [license file](LICENSE.md) for details
+このプロジェクトは、MITライセンスの下でライセンスされています。詳細は、[ライセンスファイル](LICENSE.md)をご覧ください。
